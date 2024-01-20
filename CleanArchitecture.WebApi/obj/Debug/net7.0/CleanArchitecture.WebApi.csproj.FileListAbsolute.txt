@@ -80,3 +80,4 @@ C:\Users\user\Desktop\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net7.
 C:\Users\user\Desktop\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net7.0\CleanArchitecture.Persistance.pdb
 C:\Users\user\Desktop\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net7.0\CleanArchitecture.Domain.dll
 C:\Users\user\Desktop\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net7.0\CleanArchitecture.Domain.pdb
+C:\Users\user\Desktop\CleanArchitecture\CleanArchitecture.WebApi\obj\Debug\net7.0\CleanArchitecture.WebApi.sourcelink.json

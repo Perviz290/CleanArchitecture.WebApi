@@ -11,6 +11,11 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(conn
 builder.Services.AddControllers()
     .AddApplicationPart(typeof(CleanArchitecture.Presentation.AssemblyReference).Assembly);
 
+#region MediatR Assembly service registration
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof
+(CleanArchitecture.Application.AssemblyReference).Assembly));
+#endregion
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
