@@ -16,3 +16,5 @@ C:\Users\user\Desktop\CleanArchitecture\CleanArchitecture.Persistance\bin\Debug\
 C:\Users\user\Desktop\CleanArchitecture\CleanArchitecture.Persistance\bin\Debug\net7.0\CleanArchitecture.Domain.pdb
 C:\Users\user\Desktop\CleanArchitecture\CleanArchitecture.Persistance\obj\Debug\net7.0\CleanArchitecture.Persistance.csproj.CopyComplete
 C:\Users\user\Desktop\CleanArchitecture\CleanArchitecture.Persistance\obj\Debug\net7.0\CleanArchitecture.Persistance.sourcelink.json
+C:\Users\user\Desktop\CleanArchitecture\CleanArchitecture.Persistance\bin\Debug\net7.0\CleanArchitecture.Application.dll
+C:\Users\user\Desktop\CleanArchitecture\CleanArchitecture.Persistance\bin\Debug\net7.0\CleanArchitecture.Application.pdb

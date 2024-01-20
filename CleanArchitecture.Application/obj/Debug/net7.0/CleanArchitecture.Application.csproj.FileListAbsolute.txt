@@ -11,3 +11,6 @@ C:\Users\user\Desktop\CleanArchitecture\CleanArchitecture.Application\obj\Debug\
 C:\Users\user\Desktop\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net7.0\ref\CleanArchitecture.Application.dll
 C:\Users\user\Desktop\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net7.0\CleanArchitecture.Application.csproj.AssemblyReference.cache
 C:\Users\user\Desktop\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net7.0\CleanArchitecture.Application.sourcelink.json
+C:\Users\user\Desktop\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net7.0\CleanArchitecture.Domain.dll
+C:\Users\user\Desktop\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net7.0\CleanArchitecture.Domain.pdb
+C:\Users\user\Desktop\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net7.0\CleanArchitecture.Application.csproj.CopyComplete

@@ -1,7 +1,18 @@
+using CleanArchitecture.Application.Features.Services;
 using CleanArchitecture.Persistance.Context;
+using CleanArchitecture.Persistance.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+#region Dependency Injection Interface and Implement Class
+builder.Services.AddScoped<ICarService, CarService>();
+#endregion
+
+#region Dependency Injection for AutoMapper
+builder.Services.AddAutoMapper(typeof
+    (CleanArchitecture.Persistance.AssemblyRefence).Assembly);
+#endregion
 
 #region SqlConnection
 string connectionString = builder.Configuration.GetConnectionString("SqlServer");

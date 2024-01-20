@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "CleanArchitecture.Presentation/1.0.0": {
         "dependencies": {
+          "CleanArchitecture.Application": "1.0.0",
           "MediatR": "12.2.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
         },
@@ -755,6 +756,20 @@
           "System.Threading": "4.0.11",
           "System.Xml.ReaderWriter": "4.0.11"
         }
+      },
+      "CleanArchitecture.Application/1.0.0": {
+        "dependencies": {
+          "CleanArchitecture.Domain": "1.0.0",
+          "MediatR": "12.2.0"
+        },
+        "runtime": {
+          "CleanArchitecture.Application.dll": {}
+        }
+      },
+      "CleanArchitecture.Domain/1.0.0": {
+        "runtime": {
+          "CleanArchitecture.Domain.dll": {}
+        }
       }
     }
   },
@@ -1288,6 +1303,16 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
+    },
+    "CleanArchitecture.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchitecture.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
