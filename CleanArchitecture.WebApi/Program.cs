@@ -1,6 +1,9 @@
+using CleanArchitecture.Application.Behaviors;
 using CleanArchitecture.Application.Features.Services;
 using CleanArchitecture.Persistance.Context;
 using CleanArchitecture.Persistance.Services;
+using FluentValidation;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -25,6 +28,12 @@ builder.Services.AddControllers()
 #region MediatR Assembly service registration
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof
 (CleanArchitecture.Application.AssemblyReference).Assembly));
+#endregion
+
+#region Fluent Validation
+builder.Services.AddTransient(typeof(IPipelineBehavior<,>),typeof(ValidationBehavior<,>));
+builder.Services.AddValidatorsFromAssembly(typeof
+    (CleanArchitecture.Application.AssemblyReference).Assembly);
 #endregion
 
 builder.Services.AddEndpointsApiExplorer();

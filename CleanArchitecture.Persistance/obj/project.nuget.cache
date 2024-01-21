@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "MOrIBlExybraGSJuqz60JL3DstmwEFaEln8gk7e7tLQ0ck5SPgkm7HiIZnNTwgBov9sPyq7IvNwM+rqI7H8LHQ==",
+  "dgSpecHash": "ap9eZvJvSpen3JxG8tARRdhm0OdGkdklKb0DRk9o+i6GYU2YvJ5t2ozBN6XgIdCQoF1CZz9gxxhEXF/KXkJt1A==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Desktop\\CleanArchitecture\\CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
