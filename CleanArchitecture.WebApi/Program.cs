@@ -2,15 +2,19 @@ using CleanArchitecture.Application.Behaviors;
 using CleanArchitecture.Application.Features.Services;
 using CleanArchitecture.Persistance.Context;
 using CleanArchitecture.Persistance.Services;
+using CleanArchitecture.WebApi.Middleware;
 using FluentValidation;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
 #region Dependency Injection Interface and Implement Class
 builder.Services.AddScoped<ICarService, CarService>();
 #endregion
+
+builder.Services.AddTransient<ExceptionMiddleware>();
 
 #region Dependency Injection for AutoMapper
 builder.Services.AddAutoMapper(typeof
@@ -47,6 +51,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+//for Validation Exception
+app.UseMiddlewareExtensions();
 
 app.UseHttpsRedirection();
 
